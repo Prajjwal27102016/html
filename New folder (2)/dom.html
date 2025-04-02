@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1 id="heading">welcome</h1>
+    <p>hello</p>
+  </header>
+  <p>how are you</p>
+    <script>
+        let div = document.createElement("div");
+        div.id = "paragraph"
+        div.classname = "alert";
+        div.innerHTML = "<p>wow so nice<p>";
+        document.body.append(div);
+
+        let heading = document.getElementById("heading")
+        heading.innerHTML= '&#129409;'
+
+        document.querySelector("header p").innerHTML = "<strong>good job!</strong>"
+    </script>
+  
+</body>
+</html>
