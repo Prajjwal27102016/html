@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h6>yay</h6>
+    <div class="yay"></div>
+    <div class="rectangle">
+      <button  on click = "circle()"> circle</button>
+    <button on click="traingal()"> traingal</button>
+    <button on click="rectangle()"> rectangle</button>
+    <button on click="hide()"> hide</button>
+    <button on click="show()"> show</button>
+    <script>
+        let div=document.querySelector("rectangle")
+
+        function circle(){
+            div.style.boderRadius="50";
+        }
+        function hide() {
+                div.style.display = "none";
+            }
+            function circle() {
+                    div.style.display = "block";
+                }
+                div.onmouseenter = function () {
+                    div.style.background ="red"
+                }
+                div.onmouseenter = function () {
+                        div.style.background = "none"
+                    }
+    </script>
+    </div>
+</body>
+</html>

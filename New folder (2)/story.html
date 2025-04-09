@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>scary story</h1>
+    <p id="story">i was playing games then i win and then ...</p>
+    <button on click="go dark()" >
+        <div class="text entry">type your name, if you dare:<input type="text" id="name"></div>
+        <button on click="typeandscream()"></button>please please dont click me
+    </button>
+    <button on click="finish the story">tell me what happened</button>
+    <script>function typeandscream(){var personname = document.getElementById("name").value;alert("i told you not to do that " + pesonname);}
+        function go dark(){
+            document.body.classname = "dark";
+        }
+        function finish the story {
+
+                document.getElementById("story").innerHTML = "So I carefully searched the damp dungeon. There you are!";
+
+            }
+    </script>
+</body>
+</html>
